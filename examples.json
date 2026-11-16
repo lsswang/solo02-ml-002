@@ -1,0 +1,6 @@
+[
+  {"context":[0,1],"positive":2,"negative":3,"weight":1.0},
+  {"context":[1,1,2],"positive":1,"negative":4,"weight":3.0},
+  {"context":[],"positive":3,"negative":3,"weight":0.5},
+  {"context":[6,0],"positive":0,"negative":6,"weight":2.0}
+]
