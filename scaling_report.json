@@ -1,0 +1,37 @@
+{
+  "dimension": 8,
+  "export_cost_read_rows": {
+    "257": 257,
+    "131072": 131072
+  },
+  "export_cost_write_rows": {
+    "257": 257,
+    "131072": 131072
+  },
+  "init_cost": "O(1) optimizer allocation: no per-vocab-row moment state; only the caller-owned table exists (caller cost)",
+  "max_read_rows_any_ordinary_step": 71,
+  "max_write_rows_any_ordinary_step": 44,
+  "optimizer_state_before_export": {
+    "export_watermark": 32,
+    "history_grad_rows": 643,
+    "history_grad_vectors": 643,
+    "moment_rows": 40,
+    "moment_vectors": 80,
+    "steps_remembered": 32,
+    "t": 32,
+    "tracked_rows": 40,
+    "zero_only_rows": 0
+  },
+  "ordinary_step_traffic_read_write_rows_each": {
+    "read_rows": 54,
+    "write_rows": 27
+  },
+  "steps": 32,
+  "total_ordinary_read_rows": 1694,
+  "total_ordinary_write_rows": 1001,
+  "touched_id_span": 40,
+  "vocab_sizes": [
+    257,
+    131072
+  ]
+}
